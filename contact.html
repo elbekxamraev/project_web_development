@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: #6c757d;
+      color: white;
+      padding: 50px 0;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #f8f9fa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Skill Showcase</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="skill-details.html">Skill Details</a></li>
+          <li class="nav-item"><a class="nav-link" href="project-showcase.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Content -->
+  <div class="hero">
+    <div class="container">
+      <h1>Contact Me</h1>
+      <p>Get in touch for collaborations, questions, or more information.</p>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 My Skill Showcase. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
